@@ -5,8 +5,8 @@
 }
 button{
     text-align: center;
-    padding :10px;
-    margin : 20px;
+    padding : 10rem;
+    margin : 5rem;
 }
 h1{
     text-align: center;
@@ -29,15 +29,29 @@ body,html{
     --color-secondary: #2a2c2d;
     height: 0px;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 760px) {
     img{
         width: 400px;
     }
-}
-@media only screen and (max-width: 760px) {
-    img{
-        width: 500px;
+    .fact{
+      padding: 1rem;
     }
+    .btn-wrap{
+      margin-left: 4rem;
+    }
+}
+
+@media only screen and (min-width: 760px){
+  img{
+    width: 700px;
+  }
+  .fact{
+    padding: 5rem;
+  }
+  .btn-wrap{
+    margin-left: 20rem;
+  }
 }
 .tog{
     padding: 10px;

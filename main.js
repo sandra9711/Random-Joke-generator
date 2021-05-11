@@ -7,7 +7,8 @@ displayFact=()=>{
         })
         .then(responseData=>{
             console.log("response",responseData)
-            displayFact.innerHTML=responseData.value;
+            let fact = responseData.value;
+            displayFact.innerHTML="<div class='fact' >"+fact+"</div>";
         })
 }
 

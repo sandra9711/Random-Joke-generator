@@ -1,5 +1,5 @@
 # Random-Joke-generator
-This simple we app displays random chuck norris facts on button click
+This simple web app displays random chuck norris facts on button click
 
 ## Themes
 
